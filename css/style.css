@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items:flex-end;
+  }
+  header>img {
+   height: 40px;
+   width: 40px;
+  }
+  #cursive {
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.75em;
+    font-weight: 500;
+    justify-content: flex-start;
+  }
+  header>ul {
+    display: flex;
+  }
+  header>ul>li {
+    list-style-type: none;
+    align-self:flex-end;
+    justify-items: right;
+  }
+  #pizza {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+  }
